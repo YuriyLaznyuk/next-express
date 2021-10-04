@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #856404;
+  color: #FFFFFF;
+  font-size: 22px;
+
+  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    &:hover{
+      color: red;
+    }
+  }
+}
